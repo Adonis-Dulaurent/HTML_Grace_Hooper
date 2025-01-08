@@ -26,8 +26,8 @@ venv.bak/
 */error.log
 */stdout.log
 
-# PyCharm
-.idea/
+# vscode
+.vscode/
 
 # OS generated files
 *.swp

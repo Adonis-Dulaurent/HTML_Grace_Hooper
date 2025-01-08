@@ -1,6 +1,6 @@
 # HTML : Final Assignment 
 
-Homework by Adonis Dulaurent for Cloé Pochon 
+Homework by Adonis Dulaurent for Chloé Pochon 
 
 ## Instruction 
 
