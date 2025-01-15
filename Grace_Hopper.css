@@ -1,3 +1,4 @@
+/* Add a new font to the title*/
 @font-face {
   font-family: "Alpha_Brights";
   src:
@@ -5,17 +6,20 @@
     url("fonts/Alpha_Brights.woff") format("woff");
 }
 
+/*Choice of background and text colour*/
 body {
   background: #2c2c2c;
   color: rgb(248, 248, 242);
   font-size: large;
 }
 
+/*Prevents the use of blue and underlining in text links*/
 a:link, a:visited {
   text-decoration: none;
   color: rgb(248, 248, 242);
 }
 
+/* Rules for the Header */
 header {
   font-family: "Alpha_Brights", sans-serif;
   font-size: large;
@@ -26,6 +30,7 @@ header.souligne {
   text-decoration: underline;
 }
 
+/* rules for nav (the menu bar according to HTML5 semantics)*/
 nav div a {
   text-decoration: none;
   color: rgb(248, 248, 242);
@@ -53,6 +58,7 @@ nav > * {
   padding: 10px;
 }
 
+/*Rules for the container (core text)*/
 .container {
   display: flex;
   justify-content: flex-start;
@@ -99,6 +105,8 @@ sup a:hover {
   color: pink;
 }
 
+/*Rules for the aside ( the band on the right of the text) */
+
 aside {
   flex: 1;
   display: flex;
@@ -135,7 +143,7 @@ aside ul li {
 }
 
 
-/* Responsivité */
+/*Rules to make it easier to read medium-sized screens*/
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
